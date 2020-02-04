@@ -3,26 +3,25 @@
 import pika
 
 #Conexao
+credentials      = pika.PlainCredentials('', '') #...(user,pass)
+parameters       = pika.ConnectionParameters('', 5672, '/', credentials)
+connection       = pika.BlockingConnection(parameters)
+channel          = connection.channel()
 
+print("Connection opened! :D\n")
 
-connection = pika.BlockingConnection(pika.ConnectionParameters(host='', port=""))
-channel = connection.channel()
+queueName        = "hello" 
 
-print "Connection opened! :D"
+declarationQueue = channel.queue_declare(queueName, 
+                                        passive=False,
+                                        durable=True,
+                                        exclusive=False,
+                                        auto_delete=False,
+                                        arguments=None,)
+counter          = declarationQueue.method.message_count
 
-
-queue = ""
-
-q = channel.queue_declare(queue, 
-                          passive=False,
-                          durable=True,
-                          exclusive=False,
-                          auto_delete=False,
-                          arguments=None,)
-
-contador = q.method.message_count
-
-print 'A fila %s possui: %s  mensagens'%(queue , contador)
+print('A fila "'+str(queueName)+'" possui: '+str(counter)+'  mensagens\n')
 
 connection.close()
-print "Connection closed! :D"
+
+print ("Connection closed! :D")
