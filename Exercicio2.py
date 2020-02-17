@@ -1,3 +1,8 @@
+# Testes Python 
+#
+# Github : matheusLeaao  <https://github.com/matheusLeaao>
+# @author Matheus Leão <mathegiov@hotmail.com>
+
 """Faça um programa que receba
 duas notas digitadas pelo usuário. 
 Se a nota for maior ou igual a cinco, 
