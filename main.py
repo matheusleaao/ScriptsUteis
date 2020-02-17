@@ -1,10 +1,7 @@
-'''
-
-                            Online Python Interpreter.
-                Code, Compile, Run and Debug python program online.
-Write your code in this editor and press "Run" button to execute it.
-
-'''
+# Testes Python 
+#
+# Github : matheusLeaao  <https://github.com/matheusLeaao>
+# @author Matheus Leão <mathegiov@hotmail.com>
 
 # -*- coding:UTF-8 -*- #código de linguagem local, definir acentos nas palavras
 
