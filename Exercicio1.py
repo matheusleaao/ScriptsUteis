@@ -1,3 +1,8 @@
+# Testes Python 
+#
+# Github : matheusLeaao  <https://github.com/matheusLeaao>
+# @author Matheus Leão <mathegiov@hotmail.com>
+
 """Faça um programa que receba 
 a idade do usuário e diga se ele 
 é maior ou menor de idade.  """
