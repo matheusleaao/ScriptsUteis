@@ -1,3 +1,8 @@
+# Realizar a análise de uma fila RABBITMQ e retorna a quantidade de mensagens numa fila 
+#
+# Github : matheusLeaao  <https://github.com/matheusLeaao>
+# @author Matheus Leão <mathegiov@hotmail.com>
+
 #!/usr/bin/env python
 
 import pika
