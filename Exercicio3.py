@@ -1,3 +1,9 @@
+# Testes Python 
+#
+# Github : matheusLeaao  <https://github.com/matheusLeaao>
+# @author Matheus Leão <mathegiov@hotmail.com>
+
+
 """Escreva um programa que receba dois números e um sinal, 
 e faça a operação matemática definida pelo sinal."""
 
