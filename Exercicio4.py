@@ -1,3 +1,9 @@
+# Testes Python 
+#
+# Github : matheusLeaao  <https://github.com/matheusLeaao>
+# @author Matheus Leão <mathegiov@hotmail.com>
+
+
 # -*- coding: utf-8 -*-
 
 # programa que realiza uma equação de primeiro grau
